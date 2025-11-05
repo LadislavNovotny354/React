@@ -1,0 +1,31 @@
+.one-task {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #025E73;
+    width: 500px;
+    margin: 10px auto; /* vlevo a vpravo vyrovná po obou stranách */
+}
+
+.one-task h4 {
+    padding-left: 20px;
+}
+
+.one-task button {
+    background-color: #011F26;
+    color: white; 
+    border: none;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.main-button {
+    background-color: #011F26;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    /* nahoře + dole, a 30px vlevo vpravo */
+    display: block;
+    margin: 30px auto;
+    /* vyplní marginem, oranžové, padding zelený v devtools to lze vidět */
+}

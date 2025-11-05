@@ -1,0 +1,28 @@
+body {
+    background: white;
+    color: black;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 10px;
+}
+
+.all-books > h1 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+.all-books {
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;  /* flex nebo block, flexibilní se stanou prvky uvnitř,  */
+    flex-direction: row; /* směr row ose x nebo column  */
+    justify-content: center; /* centrování obsahu */
+    align-items: flex-start;    /* vertikální zarovnání */
+    flex-wrap: wrap;  /* pokud se nevejde, přechází na další řádek */
+    gap: 20px; /* mezera mezi prvky */
+}

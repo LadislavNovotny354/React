@@ -1,0 +1,17 @@
+.text-button-changer {
+    display:flex;
+    flex-direction: column;
+}
+
+.text-button-changer h2 {
+    text-align: center;
+    color: #45C4B0;
+}
+
+.text-button-changer button {
+    background-color: #45C4B0;
+    color: black;
+    border: none;
+    margin: 5px;
+    padding: 5px;
+}

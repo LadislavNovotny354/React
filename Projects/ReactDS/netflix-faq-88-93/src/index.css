@@ -1,0 +1,17 @@
+body {
+    background-color: black;
+    margin: 0;
+}
+
+
+#result {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.all-questions {
+    color: white;
+}

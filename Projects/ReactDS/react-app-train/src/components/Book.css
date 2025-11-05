@@ -1,0 +1,14 @@
+
+.main-hedding {
+    color: gray;
+    font-size: 25px;
+}
+
+.single-book {
+    width: 300px;
+}
+
+.single-book img {
+    width: 130px;
+    height: 200px;     
+}
